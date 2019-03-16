@@ -1,1 +1,1 @@
-# DayNight-Iceland
+# DayNight Iceland
