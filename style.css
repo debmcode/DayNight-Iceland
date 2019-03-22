@@ -1184,7 +1184,7 @@ h6.jg2, h6.ka2, h6.tc2, h6.ac2, h6.gn2, h6.zb2 {
   }
   .heroimg { 
     margin: 0px 0px 0px 0px; 
-    padding: 0px 0px 500px 0px;
+    padding: 0px 0px 480px 0px;
   }
   h2.blurb {
     font-size: 5.2vw;
@@ -1329,3 +1329,58 @@ h6.jg2, h6.ka2, h6.tc2, h6.ac2, h6.gn2, h6.zb2 {
     padding: 0% 0% 100% 0%;
   }
 }
+/* Small MQ for POPUP starts */
+
+@media (min-width: 251px) and (max-width: 350px) {
+  .popup img {
+    width: 19vw;
+	}
+  .saudarkrokur {
+    top: 35%;
+  }
+  .akureyri {
+    top: 36.8%;
+  }
+  .egilsstadir {
+    top: 40%;
+  }
+  .borgarnes {
+    top: 55.5%;
+  }
+  .grindavik {
+    top: 66%;
+  }
+  .selfoss {
+    top: 68.5%;
+  }
+  .vatnajokull {
+    top: 59%;
+  }	
+}
+@media (max-width: 250px) {
+  .popup img {
+    width: 19vw;
+	}
+  .saudarkrokur {
+    top: 33%;
+  }
+  .akureyri {
+    top: 34.8%;
+  }
+  .egilsstadir {
+    top: 38%;
+  }
+  .borgarnes {
+    top: 53.5%;
+  }
+  .grindavik {
+    top: 64%;
+  }
+  .selfoss {
+    top: 66.5%;
+  }
+  .vatnajokull {
+    top: 57%;
+  }
+}
+/* Small for MQ POPUP ends */
