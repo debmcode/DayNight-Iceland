@@ -1369,7 +1369,7 @@ h6.jg2, h6.ka2, h6.tc2, h6.ac2, h6.gn2, h6.zb2 {
 @media (max-width: 250px) {
   .heroimg { 
     margin: 0px 0px 0px 0px; 
-    padding: 0px 0px 380px 0px;
+    padding: 0px 0px 340px 0px;
   }
   .popup .popuptext {
 	font-size: 11px;
@@ -1379,25 +1379,25 @@ h6.jg2, h6.ka2, h6.tc2, h6.ac2, h6.gn2, h6.zb2 {
     width: 19vw;
 	}
   .saudarkrokur {
-    top: 33%;
+    top: 31.5%;
   }
   .akureyri {
-    top: 34.8%;
+    top: 33.3%;
   }
   .egilsstadir {
-    top: 38%;
+    top: 36.5%;
   }
   .borgarnes {
-    top: 53.5%;
+    top: 52%;
   }
   .grindavik {
-    top: 64%;
+    top: 62.5%;
   }
   .selfoss {
-    top: 66.5%;
+    top: 65%;
   }
   .vatnajokull {
-    top: 57%;
+    top: 55.5%;
   }
 }
 /* Smaller MQs */
