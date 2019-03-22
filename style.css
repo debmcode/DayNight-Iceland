@@ -1314,9 +1314,13 @@ h6.jg2, h6.ka2, h6.tc2, h6.ac2, h6.gn2, h6.zb2 {
     padding: 0% 0% 100% 0%;
   }
 }
-/* Small MQ for POPUP starts */
+/* Smaller MQs */
 
 @media (min-width: 351px) and (max-width: 500px) {
+  .heroimg { 
+    margin: 0px 0px 0px 0px; 
+    padding: 0px 0px 440px 0px;
+  }
   .popup .popuptext {
 	font-size: 11px;
     bottom: 120%;
@@ -1329,6 +1333,10 @@ h6.jg2, h6.ka2, h6.tc2, h6.ac2, h6.gn2, h6.zb2 {
   }	
 }
 @media (min-width: 251px) and (max-width: 350px) {
+  .heroimg { 
+    margin: 0px 0px 0px 0px; 
+    padding: 0px 0px 400px 0px;
+  }
   .popup .popuptext {
 	font-size: 11px;
     bottom: 120%;
@@ -1359,6 +1367,10 @@ h6.jg2, h6.ka2, h6.tc2, h6.ac2, h6.gn2, h6.zb2 {
   }	
 }
 @media (max-width: 250px) {
+  .heroimg { 
+    margin: 0px 0px 0px 0px; 
+    padding: 0px 0px 380px 0px;
+  }
   .popup .popuptext {
 	font-size: 11px;
     bottom: 120%;
@@ -1388,4 +1400,4 @@ h6.jg2, h6.ka2, h6.tc2, h6.ac2, h6.gn2, h6.zb2 {
     top: 57%;
   }
 }
-/* Small for MQ POPUP ends */
+/* Smaller MQs */
