@@ -351,6 +351,16 @@ hr.linelocation {
   left: 0;
   top: 0;
 }
+.googlemap iframe {
+  background-color: #037AE8;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important; 
+  margin: 0px 0px;
+  padding: 0px 0px;
+}
 .iceland-tourist-map {
   width: 88%;
   background-color: #619FAD;
