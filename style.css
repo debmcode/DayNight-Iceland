@@ -197,7 +197,7 @@ h4.captionhero  {
   margin: 0px 0px 0px 0px; 
   padding: 1px 7px 3px 7px;
 }
-/* About page flexboxes */
+/* about page flexboxes */
 .containerabt {
   display: flex;
   flex-wrap: wrap;
@@ -220,7 +220,7 @@ h4.captionhero  {
   margin: 6% 1% 5% 1%; 
   padding: 0% 0% 4% 0%;
 }
-/* Index, About, Location - credits */
+/* index, about, location - credits */
 h6.credit {
   color: #000; 
   font-family: 'Montserrat', sans-serif;
@@ -231,7 +231,7 @@ h6.credit {
   float: right;
   z-index: 2;
 }
-/* HERO ice climber image - credit */
+/* hero ice climber image - credit */
 h6.pcind { 
   margin: 0% 4% 0% 0%;
   padding: 3px 0px 0px 0px;
@@ -243,7 +243,7 @@ h6.aloc {
   margin: 0% 2% 0% 0%;
   padding: 0px 0px 0px 0px;
 }
-/* About pg credits */
+/* about pg credits */
 h6.jeabt, h6.ydwabt {
   margin: -2px 0px 0px 0px;
   padding: 0px 10px 0px 0px;
@@ -267,7 +267,7 @@ h3.slug {
   letter-spacing: .1em;
   text-transform: uppercase;
   padding: 5.5% 6% 3% 6%;
-  margin: 0px 0% 0% 0%;
+  margin: 0% 0% 0% 0%;
 }
 hr.lineabout {
   margin: 0% 6% 3% 6%;
@@ -277,13 +277,13 @@ p.bodyabout, p.bodylocation {
   color: #000; 
   font-family: 'Montserrat', sans-serif; 
   font-weight: 400;
-  font-weight: 400;
   font-size: 1.2vw;
   line-height: 2.2vw;	
   padding: 0% 6% 2% 6%;
   margin: 0px 0px 0px 0px;
 }
-h3.captionout { /* About - captions */
+/* about captions */
+h3.captionout { 
   color: #000;
   text-align: left;
   font-family: 'Comfortaa', cursive;
@@ -328,11 +328,10 @@ hr.linelocation {
   margin: 0% 6% 3% 6%;
   padding: 0% 0% 0% 0%;
 }
-/* Google maps flexbox */
+/* Google Maps flexbox */
 .containermaps {
   display: flex;
   justify-content: space-between;
-  /*margin: 1% 5% 0% 5%;*/
   margin: 3% 3.8% 0% 3.8%;
   padding: 0% 0% 0% 0%;
 }
@@ -363,14 +362,13 @@ hr.linelocation {
   margin: 2% 0% 2% 0%;
   padding: 0% 6% 100% 6%;
 }
-/* //////////   POPUP begins   ////////// */
-
-/* Popup container */
+/* POPUP begins */
+/* popup container */
 .popup {
   position: relative;
   display: inline-block;
 }
-/* Popup text */
+/* popup text */
 .popup .popuptext {
   visibility: hidden;
   width: 120px;
@@ -384,25 +382,25 @@ hr.linelocation {
   position: absolute;
   bottom: 100%;
   left: 50%; 
-  margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+  margin-left: -60px; /* use half the width (120/2 = 60), to center arrow */
   padding: 9px 6px 9px 6px;
   z-index: 1;
 }
 .popup .popuptext::after {
   content: " ";
   position: absolute;
-  top: 100%; /* At the bottom of the tooltip */
+  top: 100%; /* at bottom of popup */
   left: 50%;
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
   border-color: black transparent transparent transparent;
 }
-/* Show the popup text when you mouse over the popup container */
+/* show popup text when mouse over popup container */
 .popup:hover .popuptext {
   visibility: visible;
 }
-/* Popup - animation */
+/* popup - animation */
 .popup .popuptext {
   opacity: 0;
   transition: opacity 1s;
@@ -410,11 +408,11 @@ hr.linelocation {
 .popup:hover .popuptext {
   opacity: 1;
 }
- /* city name svgs */
+ /* city name floating svg */
 .popup img {
-	width: 18vw;
+  width: 18vw;
 }
-.saudarkrokur, .akureyri, .egilsstadir, .borgarnes, .grindavik, .selfoss, .vatnajokull {
+.saudarkrokur, .akureyri, .egilsstadir, .borgarnes, .grindavik, .vatnajokull {
   position: absolute;
 }
 .saudarkrokur {
@@ -426,7 +424,7 @@ hr.linelocation {
   left: 52%;
 }
 .pop1 .text1, .pop2 .text2 {
-	margin-left: 0px;
+  margin-left: 0px;
 }
 .egilsstadir {
   top: 40.5%;
@@ -443,15 +441,11 @@ hr.linelocation {
 .pop5 .text5 {
   margin-left: -5px;
 }
-/*.selfoss {
-  top: 69%;
-  left: 32.3%;
-}*/
 .vatnajokull {
   top: 59.5%;
   left: 57%;
 }
-/* //////////  POPUP ends  ////////// */
+/* POPUP ends */
 
 .backtotop {
   position: absolute;
@@ -479,7 +473,7 @@ hr.linelocation {
   color: #FFF;
   text-shadow: 2px 1px 2px #000;
 }
-/* //////////  SLIDESHOW begins  ////////// */
+/* SLIDESHOW begins */
 
 .container-day, .container-night {
   box-sizing: border-box;
@@ -501,7 +495,7 @@ hr.linelocation {
   margin: 0% 0% 0% 0%;
   padding: 0% 4px 0% 4px; 
 }
-/* blue outlines on Day slides */
+/* blue outlines on DAY slides */
 .mySlides img, .mySlides2 img {
   outline-offset: -1px;
   vertical-align: middle;
@@ -513,7 +507,7 @@ hr.linelocation {
   background-color: #02529C;
   outline: 1px solid #02529C; 
 }
-/* graphite outlines on Night slides */
+/* graphite outlines on NIGHT slides */
 .mySlides2 img {
   box-sizing: border-box;
   background-color: #212121;
@@ -574,7 +568,6 @@ hr.linelocation {
   user-select: none;
   box-sizing: border-box;
   border-radius: 0 3px 3px 0;
-  /*margin-top: -50px;*/
   color: white;
   font-size: 2vw;
   font-weight: bold;
@@ -585,7 +578,7 @@ hr.linelocation {
   padding: 0% 0% 0% 0%;
 }
 .prev, .prev-night {
-	left: 34px;
+  left: 34px;
 }
 .next, .next-night {
   right: 34px;
@@ -687,11 +680,10 @@ h6.jg2, h6.ka2, h6.tc2, h6.ac2, h6.gn2, h6.zb2 {
   bottom: -1.5%;
   right: 4px;
 }
-/* //////////  SLIDESHOW ends  ////////// */
+/* SLIDESHOW ends */
 
 /* MEDIA QUERY begins */
 
-/* ///////////////////////////////////// */
 @media (min-width: 1401px){
   .navtopcontain {
     height: 2vw;
@@ -703,14 +695,12 @@ h6.jg2, h6.ka2, h6.tc2, h6.ac2, h6.gn2, h6.zb2 {
     font-size: .8vw;
   }
   h6.ula a, h6.ulb a {
-	/* /// background-color: fuchsia; /// */
     font-size: .75vw;
   }
   .ula {
 	padding: 0% 6% 0% 0%;	
   }
 }
-/* ///////////////////////////////////// */
 @media (min-width: 1001px) and (max-width: 1400px) {
   .navtopcontain {
     height: 2.4vw;
@@ -727,9 +717,6 @@ h6.jg2, h6.ka2, h6.tc2, h6.ac2, h6.gn2, h6.zb2 {
   .ula {
 	padding: 0% 7% 0% 0%;	
   }
-  /* /// h6.ula a, h6.ulb a {
-	background-color: yellow;
-  } /// */
 img.dnlogo {
   height: 3.2vw;
 }
@@ -742,9 +729,7 @@ img.dnlogo {
   }
   img.flag {
     height: 3.2vw;
-  }
-/* ///////////// YELLOW begins ///////////// */
-	
+  }	
   .bluebar-bigger {
 	height: 6.9vw;
   }
@@ -770,7 +755,7 @@ img.dnlogo {
     margin: 0px 0px 0px 0px; 
     padding: 1px 7px 3px 7px;
   }
-/* Index, About, Location - credits */
+  /* index, about, location - credits */
   h6.credit {
 	font-size: .75vw;
   }
@@ -789,7 +774,8 @@ img.dnlogo {
 	font-weight: 300;
     line-height: 3vw;	
   }
-  h3.captionout { /* About - captions */
+  /* about - captions */
+  h3.captionout { 
     font-size: 1.3vw;
     line-height: 2.5vw;
     padding: 20px 20px 0px 25px;
@@ -797,15 +783,13 @@ img.dnlogo {
   .boxa, .boxb  {
     padding: 0% 0% 25px 0%;
   }
-    /* //////////// dn-icon //////////////// */
-.dn-icon {
-  width: 3vw;
-}
-
+  .dn-icon {
+    width: 3vw;
+  }
   .bluebar, .redbar {
     padding: 0px 0px 65px 0px;
   }
-  /* //////////  POPUP starts  ////////// */
+  /* POPUP starts */
   .popup .popuptext {
     bottom: 110%;
   }
@@ -815,7 +799,7 @@ img.dnlogo {
   .pop5 .text5 {
     margin-left: -40px;
   }
-  /* //////////  POPUP ends  ////////// */
+  /* POPUP ends */
   .backtotop a {
     color: #FFF;
   }	
@@ -854,9 +838,6 @@ img.dnlogo {
 	bottom: -2%;
   }	
 }
-/* //////////// YELLOW ends //////////// */
-
-/* ///////////////////////////////////// */
 @media (min-width: 801px) and (max-width: 1000px) {
   .navtopcontain {
     height: 2.8vw;
@@ -876,9 +857,6 @@ img.dnlogo {
   .ula {
 	padding: 0% 8% 0% 0%;	
   }
-  /* /// h6.ula a, h6.ulb a {
-	background-color: dodgerblue;
-  } /// */
   img.dnlogo {
 	height: 3.8vw;
   }	
@@ -892,9 +870,7 @@ img.dnlogo {
   }
   img.flag {
     height: 4.2vw;
-  }
-/* //////////// DODGERBLUE begins //////////// */
-	
+  }	
   .bluebar-bigger {
 	height: 8vw;
   }
@@ -920,7 +896,7 @@ img.dnlogo {
     margin: 0px 0px 0px 0px; 
     padding: 1px 7px 3px 7px;
   }
-  /* Index, About, Location - credits */
+  /* index, about, location - credits */
   h6.credit {
 	font-size: .9vw;
   }
@@ -939,7 +915,8 @@ img.dnlogo {
 	font-weight: 300;
     line-height: 3.4vw;	
   }
-  h3.captionout { /* About - captions */
+  /* about - captions */
+  h3.captionout { 
     font-size: 1.6vw;
     line-height: 2.9vw;  
     padding: 20px 20px 0px 25px;
@@ -947,15 +924,13 @@ img.dnlogo {
   .boxa, .boxb  {
     padding: 0% 0% 23px 0%;
   }
-    /* //////////// dn-icon //////////////// */
-.dn-icon {
-  width: 3.5vw;
-}
-
+  .dn-icon {
+    width: 3.5vw;
+  }
   .bluebar, .redbar {
     padding: 0px 0px 50px 0px;
   }
-  /* //////////  POPUP starts  ////////// */
+  /* POPUP starts */
   .popup .popuptext {
     bottom: 110%;
   }
@@ -965,7 +940,7 @@ img.dnlogo {
   .pop5 .text5 {
     margin-left: -40px;
   }
-  /* //////////  POPUP ends  ////////// */
+  /* POPUP ends */
   .backtotop a {
     color: #FFF;
   }	
@@ -982,7 +957,7 @@ img.dnlogo {
 	font-size: 1.4vw;
     top: -7%;
   }
-  /* nontainer image text */
+  /* container image text */
   .caption-container, .caption-container-night {
 	font-size: 1.6vw;
 	line-height: 2.7vw;
@@ -1004,9 +979,6 @@ img.dnlogo {
 	bottom: -2.6%;
   }		
 }
-/* //////////// DODGERBLUE ends //////////// */
-
-/* ///////////////////////////////////// */
 @media (min-width: 501px) and (max-width: 800px) {
   .navtopcontain {
     height: 3.2vw;
@@ -1014,13 +986,9 @@ img.dnlogo {
   .navbottomcontain {  
     height: 8.5vw;
   }
-  /* /// h6.ula a, h6.ulb a {
-	background-color: purple;
-  } /// */
   img.dnlogo {
 	height: 4.5vw;
   }	
-	/* ///////////////////////////////////// */
   h6.tagline {
     font-size: 1.6vw;
   }
@@ -1033,8 +1001,6 @@ img.dnlogo {
   h6.ula a, h6.ulb a {
     font-size: 1.4vw;
   }
-	/* ///////////////////////////////////// */
-
   .ula {
 	padding: 0% 10% 0% 0%;	
   }
@@ -1049,8 +1015,6 @@ img.dnlogo {
   img.flag {
     height: 5vw;
   }
-  /* //////////// PURPLE begins //////////// */
-	
   .bluebar-bigger {
 	height: 8.8vw;
   }
@@ -1074,7 +1038,7 @@ img.dnlogo {
     margin: 0px 0px 0px 0px; 
     padding: 1px 7px 3px 7px;
   }
-  /* Index, About, Location - credits */
+  /* index, about, location - credits */
   h6.credit {
 	font-size: 1.3vw;
   }	
@@ -1096,7 +1060,8 @@ img.dnlogo {
   .containerabt {
     display: block;
   }
-  h3.captionout { /* captions for About page pix */
+  /* captions for about page pix */
+  h3.captionout { 
     font-size: 2.1vw;
     line-height: 3.6vw;
     padding: 20px 20px 0px 25px;
@@ -1104,19 +1069,16 @@ img.dnlogo {
   .boxa, .boxb  {
     padding: 0% 0% 45px 0%;
   }
-     /* //////////// dn-icon //////////////// */
-.dn-icon {
-  width: 4vw;
-}
-		.dn-icon-index {
-  bottom: -15px;
-}
-	
-	
+  .dn-icon {
+    width: 4vw;
+  }
+  .dn-icon-index {
+    bottom: -15px;
+  }
   .bluebar, .redbar {
     padding: 0px 0px 35px 0px;
   }
-  /* //////////  POPUP starts  ////////// */
+  /* POPUP starts */
   .popup .popuptext {
 	font-size: 11px;
     bottom: 120%;
@@ -1127,7 +1089,7 @@ img.dnlogo {
   .pop5 .text5 {
     margin-left: -55px;
   }
-  /* //////////  POPUP ends  ////////// */
+  /* POPUP ends */
   .backtotop a {
     color: #FFF;
   }	
@@ -1135,7 +1097,7 @@ img.dnlogo {
 	top: 38%;
     font-size: 2.8vw;
   }
-  /* Position the "next button" to the right */
+  /* position next button to right */
   .prev, .prev-night {
 	left: 14.5px;
   }
@@ -1171,9 +1133,6 @@ img.dnlogo {
 	bottom: -3.2%;
   }		
 }
-/* PURPLE ends */
-
-/* ///////////////////////////////////// */
 @media (max-width: 500px) {
   .navcontainer {
     margin: 0% 0% 0% 0%;  
@@ -1199,8 +1158,6 @@ img.dnlogo {
 	display: none;	
 	}
   h6.ula a, h6.ulb a {
-	/* background-color: greenyellow; */
-    /* font-weight: 400; */
     font-weight: bolder;
 	font-size: 2.2vw;
 	letter-spacing: .15em;
@@ -1255,11 +1212,11 @@ img.dnlogo {
     margin: 0px 0px 0px 0px; 
     padding: 1px 7px 3px 7px;
   }	
-  /* Index, About, Location - credits */
+  /* index, about, location - credits */
   h6.credit {
 	font-size: 2.3vw;
   }
-  /* HERO image - credit */
+  /* hero image - credit */
   h6.pcind { 
     margin: 0% 4% 0% 0%;
 	padding: 1% 0% 3% 0%;
@@ -1292,21 +1249,18 @@ img.dnlogo {
   .boxa, .boxb  {
     padding: 0% 0% 53px 0%;
   }
-     /* //////////// dn-icon //////////////// */
-.dn-icon {
-  width: 5vw;
-}
-	.dn-icon-index {
-  bottom: -15px;
-}
-.dn-icon-loc, .dn-icon-abt {
-  margin: 0% 4% 3.5% 0%;
-}
-.dn-icon-abtcaptions {
-  margin: 0% 3.5% 4% 0%;
-}
-	
-	
+  .dn-icon {
+    width: 5vw;
+  }
+  .dn-icon-index {
+    bottom: -15px;
+  }
+  .dn-icon-loc, .dn-icon-abt {
+    margin: 0% 4% 3.5% 0%;
+  }
+  .dn-icon-abtcaptions {
+    margin: 0% 3.5% 4% 0%;
+  }
   .bluebar, .redbar {
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 35px 0px;
@@ -1381,41 +1335,33 @@ img.dnlogo {
     padding: 0% 0% 100% 0%;
   }
 }
-
-/* Smaller MQs begin */
-/* ///////////////////////////////////// */
+/* SMALLER MQs begin */
 
 @media (min-width: 351px) and (max-width: 500px) {
   .heroimg { 
     margin: 0px 0px 0px 0px; 
     padding: 0px 0px 440px 0px;
   }
-	  h6.ula a, h6.ulb a {
+  h6.ula a, h6.ulb a {
     font-weight: bolder;
 	font-size: 2.4vw;
 	letter-spacing: .15em;
   }
-	  h2.herocopy {
+  h2.herocopy {
 	font-size: 4.5vw;
-	/*font-weight: 400;
-    line-height: 6.4vw;
-    margin: 6% 7% 7% 7%; 
-    padding: 0px 0px 0px 0px; */
   }
-
-/* //////////// dn-icon //////////////// */
-.dn-icon {
-  width: 5.5vw;
-}
-		.dn-icon-index {
-  bottom: -15px;
-}
-.dn-icon-loc, .dn-icon-abt {
-  margin: 0% 4% 3.5% 0%;
-}
-.dn-icon-abtcaptions {
-  margin: 0% 3.5% 4% 0%;
-}
+  .dn-icon {
+    width: 5.5vw;
+  }
+  .dn-icon-index {
+    bottom: -15px;
+  }
+  .dn-icon-loc, .dn-icon-abt {
+    margin: 0% 4% 3.5% 0%;
+  }
+  .dn-icon-abtcaptions {
+    margin: 0% 3.5% 4% 0%;
+  }
   .popup .popuptext {
 	font-size: 11px;
     bottom: 120%;
@@ -1432,23 +1378,21 @@ img.dnlogo {
     margin: 0px 0px 0px 0px; 
     padding: 0px 0px 400px 0px;
   }
-.boxa, .boxb  {
+.boxa, .boxb {
     padding: 0% 0% 25px 0%;
   }
-	/* //////////// dn-icon //////////////// */
-.dn-icon {
-  width: 6vw;
-}
-		.dn-icon-index {
-  bottom: -15px;
-}
-.dn-icon-loc, .dn-icon-abt {
-  margin: 0% 4% 3.5% 0%;
-}
-.dn-icon-abtcaptions {
-  margin: 0% 3.5% 4% 0%;
-}
-	
+  .dn-icon {
+    width: 6vw;
+  }
+  .dn-icon-index {
+    bottom: -15px;
+  }
+  .dn-icon-loc, .dn-icon-abt {
+    margin: 0% 4% 3.5% 0%;
+  }
+  .dn-icon-abtcaptions {
+    margin: 0% 3.5% 4% 0%;
+  }
   .popup .popuptext {
 	font-size: 11px;
     bottom: 120%;
@@ -1471,9 +1415,6 @@ img.dnlogo {
   .grindavik {
     top: 64.5%;
   }
-  /*.selfoss {
-    top: 67%;
-  }*/
   .vatnajokull {
     top: 57.5%;
   }	
@@ -1489,22 +1430,21 @@ img.dnlogo {
     margin: 0px 0px 0px 0px; 
     padding: 0px 0px 340px 0px;
   }
-	  .boxa, .boxb  {
+  .boxa, .boxb  {
     padding: 0% 0% 20px 0%;
   }
-	/* //////////// dn-icon //////////////// */
-.dn-icon {
-  width: 6.5vw;
-}
-		.dn-icon-index {
-  bottom: -15px;
-}
-.dn-icon-loc, .dn-icon-abt {
-  margin: 0% 4% 3.5% 0%;
-}
-.dn-icon-abtcaptions {
-  margin: 0% 3.5% 4% 0%;
-}
+  .dn-icon {
+    width: 6.5vw;
+  }
+  .dn-icon-index {
+    bottom: -15px;
+  }
+  .dn-icon-loc, .dn-icon-abt {
+    margin: 0% 4% 3.5% 0%;
+  }
+  .dn-icon-abtcaptions {
+    margin: 0% 3.5% 4% 0%;
+  }
   .popup .popuptext {
 	font-size: 11px;
     bottom: 120%;
@@ -1527,9 +1467,6 @@ img.dnlogo {
   .grindavik {
     top: 63%;
   }
-  /*.selfoss {
-    top: 65.5%;
-  }*/
   .vatnajokull {
     top: 56%;
   }
@@ -1540,4 +1477,4 @@ img.dnlogo {
     margin-left: -100px;
   }	
 }
-/* Smaller MQs end */
+/* SMALLER MQs end */
