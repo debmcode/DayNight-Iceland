@@ -1364,6 +1364,9 @@ img.dnlogo {
   h2.herocopy {
 	font-size: 4.5vw;
   }
+	  p.bodyabout, p.bodylocation {
+	  	  color: fuchsia;
+  }
   .dn-icon {
     width: 5.5vw;
   }
@@ -1394,6 +1397,9 @@ img.dnlogo {
   }
 .boxa, .boxb {
     padding: 0% 0% 25px 0%;
+  }
+		  p.bodyabout, p.bodylocation {
+	  	  color: darkgoldenrod;
   }
   .dn-icon {
     width: 6vw;
@@ -1446,6 +1452,9 @@ img.dnlogo {
   }
   .boxa, .boxb  {
     padding: 0% 0% 20px 0%;
+  }
+		 p.bodyabout, p.bodylocation {
+	  	  color: coral;
   }
   .dn-icon {
     width: 6.5vw;
