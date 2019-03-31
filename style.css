@@ -780,6 +780,7 @@ img.dnlogo {
     padding: 5.5% 6% 3% 6%;
   }
   p.bodyabout, p.bodylocation {
+	  	  color: red;
 	font-size: 1.5vw;
 	font-weight: 300;
     line-height: 3vw;	
@@ -921,6 +922,7 @@ img.dnlogo {
     padding: 5.5% 6% 3% 6%;
   }
   p.bodyabout, p.bodylocation {
+	  	  color: cyan;
 	font-size: 1.8vw;
 	font-weight: 300;
     line-height: 3.4vw;	
@@ -1063,6 +1065,7 @@ img.dnlogo {
     padding: 5.5% 6% 3% 6%;
   }
   p.bodyabout, p.bodylocation {
+	                 color: aqua;
 	font-size: 2.4vw;
 	font-weight: 300;
     line-height: 4.2vw;	
@@ -1242,6 +1245,7 @@ img.dnlogo {
     padding: 10% 6% 6% 6%;
   }
   p.bodyabout, p.bodylocation {
+	  	  color: yellow;
 	font-size: 3.4vw;
     line-height: 6vw;	
 	padding: 0% 6% 4% 6%;
