@@ -407,7 +407,7 @@ hr.linelocation {
 .popup .popuptext {
   visibility: hidden;
   width: 120px;
-  background-color: black;
+  background-color: #02529C;
   border-radius: 6px;
   color: #fff;
   text-align: center;
@@ -429,7 +429,7 @@ hr.linelocation {
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: black transparent transparent transparent;
+  border-color: #02529C transparent transparent transparent;
 }
 /* show popup text, mouse over popup container */
 .popup:hover .popuptext {
@@ -1449,7 +1449,7 @@ h6.jg2, h6.ka2, h6.tc2, h6.ac2, h6.gn2, h6.zb2 {
     padding: 0px 0px 400px 0px;
   }
   .boxa, .boxb {
-    padding: 0% 0% 7.5% 0%;
+    padding: 0% 0% 9% 0%;
   }
   #dots {
     margin: 0%;
